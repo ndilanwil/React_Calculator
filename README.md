@@ -2,19 +2,22 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+Create an online calculator to perform basic operations
 
 ## Description
-TODO - How have you solved the problem?
+Create a calculator that performs basics operations, that is addition, substraction, multiplication and division
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+Inside the project file "calculator" launch the server by typing "npm start" in the terminal. so the steps will be
+>cd calculator
+>npm start
+And then go to the url "https://web-c48ca02e4-398b.docode.fi.qwasar.io/"
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+The calulator will be displayed on your screen through the link "https://web-c48ca02e4-398b.docode.fi.qwasar.io/"
+Point the arrow on the digits you want to form and use the different operations in between 2 numbers
+click the "=" button to evaluate your result
+C is used to clear the screen and "DEL" use to erase/delete last digit
 
 ### The Core Team
 
