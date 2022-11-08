@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import clear from './clear.js';
+import deletes from './deletes.js';
+import operate from './operate.js';
 import './App.css';
 
 
@@ -8,23 +11,6 @@ function App() {
 
     const handleClick= (props) => {
         setResult(result.concat(props.target.name));
-    }
-
-    const deletes = () => {
-        setResult(result.slice(0,-1));
-    }
-
-    const clear = () => {
-        setResult("");
-    }
-
-    const operate = () => {
-        try{
-            setResult(eval(result).toString());
-        }
-        catch(err){
-            setResult("ERROR, clear to start back");
-        }
     }
 
   return (
